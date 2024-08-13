@@ -14,14 +14,26 @@
     />
   </head>
   <body class="bg-gray-900">
-    <div class="container flex justify-center">
-      <div class="input-field flex justify-between items-center gap-2 mt-8">
+    <div class="container max-w-md mx-auto">
+      <div class="input-field flex justify-between items-center gap-2 mt-16">
         <input
           type="text"
           placeholder="Add a new task"
           class="w-96 p-2 rounded-lg border-2 border-indigo-700 outline-none bg-transparent"
         />
-        <i class="fa-solid fa-plus text-white bg-indigo-700 p-3 rounded-lg"></i>
+        <i
+          class="fa-solid fa-plus text-white bg-indigo-700 p-3 rounded-lg cursor-pointer"
+        ></i>
+      </div>
+      <div class="task mt-16 text-white">
+        <p class="mb-4 font-bold">Task to do -4</p>
+        <div
+          class="todos bg-gray-700 flex justify-between items-center p-6 rounded-lg"
+        >
+          <p>Reading news paper</p>
+          <i class="fa-solid fa-square-check"></i>
+          <i class="fa-solid fa-trash"></i>
+        </div>
       </div>
     </div>
   </body>
